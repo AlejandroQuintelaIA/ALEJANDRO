@@ -14,7 +14,7 @@ formulario - bootstrap
         if (!form.checkValidity()) {
             event.stopPropagation();
         } else {
-            // Simulamos el envío
+            // Mostramos el mensaje de éxito
             successMessage.classList.remove('d-none');
             form.reset();
 

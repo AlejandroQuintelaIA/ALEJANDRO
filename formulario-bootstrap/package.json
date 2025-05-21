@@ -1,0 +1,19 @@
+{
+  "name": "formulario-bootstrap",
+  "version": "1.0.0",
+  "description": "Proyecto de formulario HTML validado con Bootstrap 5.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "deploy": "gh-pages -d src"
+  },
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "gh-pages": "^3.2.3"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

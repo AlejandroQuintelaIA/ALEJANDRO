@@ -1,0 +1,33 @@
+/* Este archivo contiene estilos personalizados para el formulario, asegurando que tenga un diseño moderno, bonito y responsive utilizando Bootstrap. */ 
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 15px;
+    }
+}

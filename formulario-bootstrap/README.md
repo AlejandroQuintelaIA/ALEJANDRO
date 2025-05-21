@@ -35,6 +35,13 @@ formulario-bootstrap/
 - Email: Campo obligatorio y formato válido
 - Mensaje: Entre 10 y 200 caracteres
 
+## URLs del Proyecto
+
+### URLs de Acceso
+- **Clonar Repositorio**: `https://github.com/AlejandroQuintelaIA/formulario-bootstrap.git`
+- **Ver Código**: `https://github.com/AlejandroQuintelaIA/formulario-bootstrap`
+- **GitHub Pages**: `https://AlejandroQuintelaIA.github.io/formulario-bootstrap`
+
 ## Tecnologías utilizadas
 
 - HTML5

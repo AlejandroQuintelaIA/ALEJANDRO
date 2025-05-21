@@ -1,11 +1,14 @@
 {
   "name": "formulario-bootstrap",
   "version": "1.0.0",
-  "description": "Proyecto de formulario HTML validado con Bootstrap 5.",
+  "description": "Formulario de contacto con Bootstrap y pruebas automatizadas",
   "main": "src/index.html",
   "scripts": {
     "start": "live-server src",
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -d src",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug"
   },
   "author": "Tu Nombre",
   "license": "MIT",
@@ -14,6 +17,7 @@
     "gh-pages": "^3.2.3"
   },
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "@playwright/test": "^1.40.0"
   }
 }

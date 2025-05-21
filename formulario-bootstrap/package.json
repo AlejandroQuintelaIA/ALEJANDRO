@@ -4,7 +4,7 @@
   "description": "Formulario de contacto con Bootstrap y pruebas automatizadas",
   "main": "src/index.html",
   "scripts": {
-    "start": "live-server src",
+    "start": "live-server --port=8080 --entry-file=src/index.html",
     "deploy": "gh-pages -d src",
     "test": "playwright test",
     "test:ui": "playwright test --ui",

@@ -1,0 +1,26 @@
+{
+  "name": "formulario-bootstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandroQuintelaIA/TU-REPOSITORIO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AlejandroQuintelaIA/TU-REPOSITORIO/issues"
+  },
+  "homepage": "https://github.com/AlejandroQuintelaIA/TU-REPOSITORIO#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0"
+  }
+}

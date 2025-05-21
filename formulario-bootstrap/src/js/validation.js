@@ -8,23 +8,23 @@ formulario - bootstrap
     const form = document.getElementById('contactForm');
     const successMessage = document.getElementById('successMessage');
 
-    form.addEventListener('submit', function (event) {
+    form.addEventListener('submit', function(event) {
         event.preventDefault();
-
-        if (!form.checkValidity()) {
-            event.stopPropagation();
-        } else {
+        form.classList.add('was-validated');
+        
+        if (form.checkValidity()) {
             // Mostramos el mensaje de éxito
             successMessage.classList.remove('d-none');
+            
+            // Limpiamos el formulario
             form.reset();
-
+            form.classList.remove('was-validated');
+            
             // Ocultamos el mensaje después de 3 segundos
             setTimeout(() => {
                 successMessage.classList.add('d-none');
             }, 3000);
         }
-
-        form.classList.add('was-validated');
     });
 });
 │   └── index.html
